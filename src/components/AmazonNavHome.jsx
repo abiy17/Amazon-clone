@@ -2,7 +2,7 @@ import amazone from "../assets/amazon.png"
 import search from "../assets/search.svg"
 import cart from "../assets/cart-icon.png"
 import bar from "../assets/hamburger-menu.png"
-import amazoneMobile from "../assets/amazon-Mobile-logo-white.png"
+import amazoneMobile from "../assets/amazon-mobile-logo-white.png"
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom"
 import { myContext } from "../context"
