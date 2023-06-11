@@ -1,0 +1,188 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+#root{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#search{
+    border-radius: 5px 0 0px 5px;
+    padding-left: 2em;
+    outline-color: rgb(240, 96, 0);
+    
+}
+#search-btn{
+    background-color: rgb(254, 189, 105);
+    border-radius: 0px 5px 5px 0;
+}
+.amazon-home-page{
+    min-height: 560px;
+}
+#span{
+    color: orange;
+}
+#Nav-li{
+    width: 6em;
+    text-align: center;
+}
+#Nav-li:hover{
+    border: 2.5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#cart-div{
+    width: 7.3em;
+    text-align: center;
+    height: 3.1em;
+    padding-top: 2px;
+}
+#cart-div:hover{
+    border: 2.5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#items{
+    cursor: pointer;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+}
+#add-btn{
+    position: absolute;
+    top: 31.5em;
+    font-size: smaller;
+    left: 10%;
+    height: 2.5em;
+    background-color: yellow;
+    width: 80%;
+    border-radius: 30px;
+    color: rgb(33, 33, 33);
+    background-color: rgb(255, 216, 20);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+#add-btn:hover{
+    opacity: 0.75;
+    transition: all 0.4s;
+}
+#products-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 20px;
+}
+#product-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+#cart-item{
+    border-radius: 10px;
+    border: 1px solid rgb(201, 199, 199);
+}
+#orderItems-Nav{
+    border-radius: 10px 10px 0px 0px ;
+    border: 0.7px solid rgb(204, 203, 203);
+    align-items: center;
+    font-weight: 500;
+    background-color: rgb(250, 248, 248);
+}
+#amazon-nav{
+    background-color: rgb(19, 25, 33);
+}
+#summary{
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#order-p{
+    color: rgb(177, 39, 4)
+}
+#cart-page{
+    min-height: 640px;
+}
+.order{
+    min-height: 560px;
+}
+#order-btn:hover{
+    opacity: 0.77;
+    transition: all 0.4s;
+}
+#order-btn:active{
+    opacity: 0.2;
+}
+#text{
+    overflow: hidden;
+}
+#btn-order{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    margin: auto;
+    height: 2.5em;
+    font-weight: 600;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+#btn-order:hover{
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+}
+#btn-order:active{
+    background-color: black;
+    color: white;
+}
+.order-btn{
+    font-size: 15px;
+    width: 140px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 216, 20);
+    margin-top: 1em;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.order-btn:hover{
+    opacity: 0.8;
+    transition: all 0.6s;
+}
+.order-btn:active{
+    opacity: 0.1;
+    background-color: rgb(206, 174, 17);
+}
+#track-btn{
+    padding: 8px;
+    font-size: 15px;
+    background: white;
+    border: 1px solid #D5D9D9;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+#track-btn:hover{
+    opacity: 0.8;
+    background-color: rgb(252, 252, 252);
+    transition: all 0.6s;
+}
+#track-btn:active{
+    opacity: 0.1;
+    background-color: rgb(214, 213, 213);
+}
+#order-item{
+    min-height: 10em; 
+    padding-top: 12px;
+    border: 0.7px solid rgb(204, 203, 203);
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    top: -2.5em;
+}
