@@ -687,7 +687,7 @@ const products = [
     image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
     name: "Men's Full-Zip Hooded Fleece Sweatshirt",
     rating: {
-      images:"images/ratings/rating-45.png",
+      images:"./images/ratings/rating-45.png",
       stars: 4.5,
       count: 3157
     },
