@@ -29,7 +29,7 @@ function Cartsummary() {
     }
     return (
         <div id="summary" className="flex flex-col w-[20em] sm:p-1 sm:w-[27em] h-[26.5em] ">
-                <div className="w-[25em] flex flex-col gap-5 pl-10 pt-5">
+                <div className="w-[25em] flex flex-col gap-5 pl-6 pt-5">
                     <p className="font-bold text-xl">Order Summary</p>
                     <div className="flex gap-16  sm:gap-[10em] md:gap-[10em] lg:gap-[10em]">
                         <div className="flex flex-col gap-5">
@@ -55,7 +55,7 @@ function Cartsummary() {
                     </div>
                 </div>
                 <li className="text-slate-300 sm:pl-4 pt-2 list-none" >....................................................................................................................................</li>
-                <div className="flex gap-24 sm:gap-[11.5em] pl-10">
+                <div className="flex gap-24 sm:gap-[11.5em] pl-6">
                     <div className="flex flex-col gap-3">
                         <p id="order-p" className="font-bold text-xl">Order total:</p>
                         <div className="flex gap-5 text-lg">

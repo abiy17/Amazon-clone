@@ -20,8 +20,8 @@ function Amazonitem(props) {
                 <img id="product-image" className="" src={props.image} alt="" />
             </div>
             <div className="m-auto w-[10em]">
-            <p className="absolute top-[15em] md:absolute md:left-40 lg:absolute lg:left-12 left-8 sm:ml-0 sm:tracking-tight w-[20em]  sm:absolute font-bold sm:w-[12em] flex flex-col">{props.name.slice(0,40)+"..."}</p>
-            <div className="absolute top-[17.5em] lg:absolute lg:left-12 md:absolute md:left-40 left-12 md:absolute md:left-7 pt-2">
+            <p className="absolute top-[15em] md:absolute md:left-40 lg:absolute lg:left-12 left-12 sm:ml-0 sm:tracking-tight w-[20em]  sm:absolute font-bold sm:w-[12em] flex flex-col">{props.name.slice(0,40)+"..."}</p>
+            <div className="absolute top-[17.5em] lg:absolute lg:left-12 left-12 md:absolute md:left-40 pt-2">
                 <div className="flex gap-3">
                     <img className="w-28 " src={props.rating.images} alt="" />
                     <p className="text-blue-700">{props.rating.count}</p>
@@ -29,8 +29,9 @@ function Amazonitem(props) {
                 <p className="font-bold">${props.priceCents/100}</p>
             </div>
             <p></p>
-            <div className="">
-                <select onChange={(e)=>{setselectedvalue(e.target.value)}} className="absolute top-[21.8em] bg-slate-100 rounded-md">
+            <div className="mt-5">
+                <p className="ml-4 md:ml-0 absolute left-7 sm:absolute sm:left-8 md:absolute md:left-40 lg:absolute lg:left-12">select quantity:</p>
+                <select onChange={(e)=>{setselectedvalue(e.target.value)}} className="absolute top-[22.3em] left-40 sm:absolute sm:left-44 md:absolute md:left-[18em] lg:absolute lg:left-[12em] xl:absolute xl:left-[10.3em] bg-slate-100 rounded-md">
                     <option selected value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
