@@ -17,7 +17,7 @@ function AmazonNavHome() {
             <img src={amazoneMobile} alt="" className="relative top-3 h-12 left-0 sm:hidden"/>
             </div>
             <div className="flex">
-                <input id="search" onChange={(e)=>{setsearchValue(e.target.value)}} className="relative top-[.9em] text-black md:min-w-[20em] md:max-w-[34em] lg:min-w-[35em] lg:max-w-[49em] xl:min-w-[50em] h-10" type="text"placeholder="Search"/>
+                <input id="search" onChange={(e)=>{setsearchValue(e.target.value)}} className="relative w-36 top-[.9em] text-black md:min-w-[20em] md:max-w-[34em] lg:min-w-[35em] lg:max-w-[49em] xl:min-w-[50em] h-10" type="text"placeholder="Search"/>
                 <button onClick={()=>HandleSearch} id="search-btn" className="h-10 relative top-[0.9em] w-12 pl-1">
                     <img className="w-10" src={search}/>
                 </button>

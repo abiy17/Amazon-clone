@@ -20,10 +20,10 @@ function Amazonitem(props) {
                 <img id="product-image" className="" src={props.image} alt="" />
             </div>
             <div className="m-auto w-[10em]">
-            <p className="absolute top-[15em] left-8 ml-12 sm:ml-0 sm:tracking-tight w-[20em]  sm:absolute font-bold sm:w-[12em] flex flex-col">{props.name.slice(0,40)+"..."}</p>
-            <div className="absolute top-[17.5em] pt-2">
+            <p className="absolute top-[15em] md:absolute md:left-40 lg:absolute lg:left-12 left-8 sm:ml-0 sm:tracking-tight w-[20em]  sm:absolute font-bold sm:w-[12em] flex flex-col">{props.name.slice(0,40)+"..."}</p>
+            <div className="absolute top-[17.5em] lg:absolute lg:left-12 md:absolute md:left-40 left-12 md:absolute md:left-7 pt-2">
                 <div className="flex gap-3">
-                    <img className="w-28" src={props.rating.images} alt="" />
+                    <img className="w-28 " src={props.rating.images} alt="" />
                     <p className="text-blue-700">{props.rating.count}</p>
                 </div>
                 <p className="font-bold">${props.priceCents/100}</p>
