@@ -3,13 +3,13 @@
 #This website is fully responsive
 #language used :- React js and tailwind css
 main functionality includes:-
-1,The user can select the quantity of the item add to the cart.
-2,The user can search and get the item they wanted.
-3,The user can see the items in the cart
-4,If the user wants to update the quantity of item,they can update it
+#1,The user can select the quantity of the item add to the cart.
+#2,The user can search and get the item they wanted.
+#3,The user can see the items in the cart
+#4,If the user wants to update the quantity of item,they can update it
 by clicking update button.
 #the Money amount also will be updated based on the user input and It will be displayed in the cart summary.
-5,If the user wants to remove the added item ,they can remove it by
+#5,If the user wants to remove the added item ,they can remove it by
 clicking delete button.
 6,The user can't make order,If the cart is empty 
 #the site notify the user that the cart is Empty 
